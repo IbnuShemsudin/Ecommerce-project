@@ -1,12 +1,12 @@
-import { Header } from '../components/Header';
+// import { Header } from '../components/Header';
 import './HomePage.css';
 
-export function HomePage() {
+function HomePage() {
   return (
     <>
       <title>Ecommerce Project</title>
 
-      <Header />
+      {/* <Header /> */}
 
       <div className="home-page">
         <div className="products-grid">
@@ -161,3 +161,5 @@ export function HomePage() {
     </>
   );
 }
+
+export default HomePage;
