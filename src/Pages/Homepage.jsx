@@ -1,4 +1,4 @@
-// import { Header } from '../components/Header';
+import { Header } from '../components/Header';
 import './HomePage.css';
 
 function HomePage() {
@@ -6,7 +6,7 @@ function HomePage() {
     <>
       <title>Ecommerce Project</title>
 
-      {/* <Header /> */}
+      <Header />
 
       <div className="home-page">
         <div className="products-grid">
